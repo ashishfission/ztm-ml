@@ -1,0 +1,13 @@
+prefix=/Users/ashishkumar/AI-ML/ztm-ml/env
+exec_prefix=/Users/ashishkumar/AI-ML/ztm-ml/env
+libdir=/Users/ashishkumar/AI-ML/ztm-ml/env/lib
+sharedlibdir=/Users/ashishkumar/AI-ML/ztm-ml/env/lib
+includedir=/Users/ashishkumar/AI-ML/ztm-ml/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
